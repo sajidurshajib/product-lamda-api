@@ -37,4 +37,13 @@ manifest_hash = ""
 packagetype = "Zip"
 functions = ["DeleteItemsFunction"]
 
+[function_build_definitions.9aa0da67-15ec-486c-9cad-2f8c052fd1c6]
+codeuri = "/home/bucky/Projects/product-lamda-api/src/single_item"
+runtime = "python3.9"
+architecture = "x86_64"
+handler = "app.lambda_handler"
+manifest_hash = ""
+packagetype = "Zip"
+functions = ["SingleItemFunction"]
+
 [layer_build_definitions]
